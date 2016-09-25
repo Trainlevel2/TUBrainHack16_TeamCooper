@@ -182,11 +182,11 @@ def training(direct, the, alp, lbet, hbet, gam):
                             sums = [sum(mtrx[x]) for x in range(0,depth-1) ]
 
 
-                            the = (float(the)+sums[0])/(depth+1)
-                            alp = (float(alp)+sums[1])/(depth+1)
-                            lbet = (float(lbet)+sums[2])/(depth+1)
-                            hbet = (float(hbet)+sums[3])/(depth+1)
-                            gam = (float(gam)+sums[4])/(depth+1)
+                            the = (float(the)+sums[0])/(depth)
+                            alp = (float(alp)+sums[1])/(depth)
+                            lbet = (float(lbet)+sums[2])/(depth)
+                            hbet = (float(hbet)+sums[3])/(depth)
+                            gam = (float(gam)+sums[4])/(depth)
 
                             print "Training complete"
                             count = 0
