@@ -188,7 +188,6 @@ def training(direct, the, alp, lbet, hbet, gam):
         elif state == 0x0600:
             print "Internal error in Emotiv Engine ! "
         time.sleep(0.1)
-    return
 
 def running():
 
@@ -240,7 +239,6 @@ def running():
             print "Internal error in Emotiv Engine ! "
         time.sleep(0.1)
 
-    return
 
 # -------------------------------------------------------------------------
 print "==================================================================="
