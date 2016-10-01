@@ -4,7 +4,7 @@ Darwin Huang </br>
 Eric Mendoza-Conner </br>
 Zhengqi Xi
 
-9/23/2016-9/25/2016 </br>
+<b>9/23/2016-9/25/2016 </b></br>
 
 A project using the Emotiv Insight, after an unsuccessful foray with the openBCI, and some fun times messing around with a Muscle SpikerShield.
 
